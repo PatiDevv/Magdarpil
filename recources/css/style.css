@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato:ital,wght@1,300&family=Original+Surfer&display=swap");
+
+/* Green: #67b26f
+Blue: #4ca2cd
+Mid: #5aaa9d */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: rgba(26, 26, 26, 0.87);
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 100;
+  padding: 0px;
+  font-size: 20px;
+  height: 100vh;
+}
+
+.maltese {
+  display: flex;
+}
+
+.content {
+  padding: 40% 0 0 5%;
+  font-size: 150%;
+  letter-spacing: 3px;
+  
+}
+
+.maltese-hero {
+  width: 90vh;
+}
+
+header {
+  background: #dae2f8; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d6a4a4,
+    #dae2f8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-position: left;
+  height: 100vh;
+  background-attachment: fixed;
+}
