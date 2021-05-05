@@ -23,6 +23,14 @@ body {
   margin: 0 auto;
 }
 
+section {
+  padding: 80px 0;
+}
+
+.box {
+  padding: 1%;
+}
+
 /* ------ HEADINGS ------ */
 h1,
 h2,
@@ -45,7 +53,7 @@ h2 {
   font-size: 180%;
   letter-spacing: 5px;
   font-weight: 300;
-  margin: 30px 0;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -57,6 +65,17 @@ h2:after {
   content: " ";
   margin: 0 auto;
   margin-top: 15px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10px;
+}
+p {
+  line-height: 135%;
 }
 
 /* ------ BUTTONS ------ */
@@ -100,7 +119,7 @@ input[type="submit"]:hover {
 /* ---------------------------------------- */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
     url(img/ajra.jpg);
   background-size: cover;
   background-position: center;
@@ -167,7 +186,11 @@ header {
 
 .steps-box:first-child {
   text-align: left;
-  margin-top: 40px;
+  margin-top: 0px;
+}
+
+.superpies-box {
+  margin-top: 0px;
 }
 
 .ajra-icon {
@@ -183,9 +206,41 @@ header {
 
 .ajra-description {
   padding: 3% 0 3% 3%;
+  line-height: 135%;
 }
 
 .logo-zkwpfci-img {
   height: 150px;
   float: right;
+}
+
+/* ---------------------------------------- */
+/* SECTION o nas */
+/* ---------------------------------------- */
+
+.long-copy {
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  line-height: 135%;
+  margin-bottom: 3%;
+  letter-spacing: 0.6px;
+}
+
+.row {
+  text-align: center;
+}
+
+.owner {
+  height: 200px;
+  border-radius: 300px;
+
+  opacity: 0.9;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.5s, opacity 0.5s;
+}
+.owner:hover {
+  opacity: 1;
+  transform: scale(1.06);
 }
