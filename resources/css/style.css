@@ -14,6 +14,17 @@ body {
   height: 100vh;
 }
 
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /* ---------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------- */
@@ -74,6 +85,27 @@ h3 {
   font-weight: 400;
   margin-top: 10px;
 }
+
+h4 {
+  color: #555;
+  word-spacing: 1px;
+  font-size: 140%;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h4:after {
+  display: block;
+  height: 1px;
+  width: 400px;
+  background-color: #a471c1;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
 p {
   line-height: 135%;
 }
@@ -220,6 +252,7 @@ header {
 
 .long-copy {
   text-align: center;
+  font-size: 120%;
   width: 70%;
   margin-left: 15%;
   line-height: 135%;
@@ -243,4 +276,125 @@ header {
 .owner:hover {
   opacity: 1;
   transform: scale(1.06);
+}
+
+/* ---------------------------------------- */
+/* SECTION Zanim kupisz psa */
+/* ---------------------------------------- */
+
+.zanim_kupisz {
+  text-align: left;
+  width: 70%;
+  margin-left: 15%;
+  line-height: 120%;
+  margin-bottom: 3%;
+  letter-spacing: 0.6px;
+}
+
+.zanim_kupisz_3 {
+  text-align: justify;
+  width: 70%;
+  margin-left: 15%;
+  line-height: 120%;
+  margin-bottom: 3%;
+  letter-spacing: 0.6px;
+}
+.section-zanim_kupisz {
+  background-color: #f4f4f4;
+}
+
+.zanim_kupisz-icon {
+  color: rgba(100, 58, 124, 0.7);
+  float: left;
+  height: 25px;
+  width: 25px;
+  text-align: left;
+  padding: 2px;
+  font-size: 120%;
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-top: 1px;
+  --ionicon-stroke-width: 30px;
+}
+
+ul li {
+  list-style: none;
+  padding: 3px;
+}
+
+.text_center_normal {
+  text-align: center;
+  font-size: 110%;
+  line-height: 120%;
+  margin-bottom: 2%;
+  letter-spacing: 0.6px;
+}
+
+.text_center_small {
+  text-align: center;
+  font-size: 100%;
+  line-height: 120%;
+  margin-top: 15px;
+}
+
+li {
+  list-style: none;
+  vertical-align: text-bottom;
+}
+
+.p_question {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  margin-right: 100px;
+}
+
+.padding_botton {
+  padding-bottom: 30px;
+}
+
+/* ---------------------------------------- */
+/* SECTION Nasze szczeniaczki */
+/* ---------------------------------------- */
+
+.section-photos {
+}
+
+.puppy-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.puppy-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.puppy-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.puppy-photo img {
+  opacity: 0.7;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 100%;
+  height: auto;
+  transform: scale(1.06);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.puppy-photo img:hover {
+  opacity: 1;
+  transform: scale(1.25);
 }
