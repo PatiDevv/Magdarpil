@@ -55,7 +55,7 @@ h1 {
   font-size: 210%;
   letter-spacing: 5px;
   font-weight: 300;
-  margin: 0 0;
+  margin: 40px 0px 35px 0;
 }
 
 h2 {
@@ -161,8 +161,8 @@ header {
 .logo {
   height: 75px;
   width: auto;
-  float: left;
-  margin: 3% 0 0 3%;
+  float: right;
+  margin: 2% 0 0 3%;
 }
 
 .zkwp-fci {
@@ -174,17 +174,18 @@ header {
 .hero-text-box {
   position: absolute;
   width: 750px;
-  top: 24%;
-  left: 50%;
+  top: 27%;
+  left: 62%;
   transform: translate(-50%, -50%);
+  text-align: right;
 }
 
 /* Main navi */
 
 .main-nav {
-  float: right;
+  float: left;
   list-style: none;
-  margin: 4% 3% 0 0;
+  margin: 2% 0 0 0;
 }
 
 .main-nav li {
@@ -397,4 +398,81 @@ li {
 .puppy-photo img:hover {
   opacity: 1;
   transform: scale(1.25);
+}
+
+/* ---------------------------------------- */
+/* FOTTER Nasze szczeniaczki */
+/* ---------------------------------------- */
+
+footer {
+  background-color: rgba(100, 58, 124, 0.411);
+  color: #fff;
+  font-size: 90%;
+  padding: 0.5%;
+}
+
+.p-footer {
+  font-size: 50%;
+  font-weight: 400;
+  float: left;
+  opacity: 1;
+  margin-left: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.footer-nav,
+.social-links {
+  list-style: none;
+}
+
+.footer-nav {
+  float: left;
+  font-size: 90%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.social-links {
+  float: right;
+  font-size: 300%;
+  margin-top: 1px;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.social-links li a:link,
+.social-links li a:visited,
+.footer-nav li a:link,
+.footer-nav li a:visited {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 1px;
+  border-bottom: none;
+  transition: color 0.5s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  text-decoration: none;
+  color: #e67e22;
+}
+
+.fb:hover,
+.fb:active {
+  text-decoration: none;
+  color: #3b5998;
+  transition: color 0.5s;
 }
