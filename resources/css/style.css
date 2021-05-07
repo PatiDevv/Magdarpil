@@ -217,7 +217,7 @@ header {
   background-color: #f4f4f4;
 }
 
-.steps-box:first-child {
+.steps-box:last-child {
   text-align: left;
   margin-top: 0px;
 }
@@ -238,13 +238,20 @@ header {
 }
 
 .ajra-description {
-  padding: 3% 0 3% 3%;
+  padding: 3% 0 3% 0%;
   line-height: 135%;
+  margin-top: 20px;
 }
 
 .logo-zkwpfci-img {
   height: 150px;
   float: right;
+}
+
+.ajra {
+  width: 90%;
+  margin: 5% 7% 0 0;
+  border-radius: 20px;
 }
 
 /* ---------------------------------------- */
@@ -256,7 +263,7 @@ header {
   font-size: 120%;
   width: 70%;
   margin-left: 15%;
-  line-height: 135%;
+  line-height: 145%;
   margin-bottom: 3%;
   letter-spacing: 0.6px;
 }
@@ -287,7 +294,7 @@ header {
   text-align: left;
   width: 70%;
   margin-left: 15%;
-  line-height: 120%;
+  line-height: 135%;
   margin-bottom: 3%;
   letter-spacing: 0.6px;
 }
@@ -296,7 +303,7 @@ header {
   text-align: justify;
   width: 70%;
   margin-left: 15%;
-  line-height: 120%;
+  line-height: 135%;
   margin-bottom: 3%;
   letter-spacing: 0.6px;
 }
@@ -326,7 +333,7 @@ ul li {
 .text_center_normal {
   text-align: center;
   font-size: 110%;
-  line-height: 120%;
+  line-height: 140%;
   margin-bottom: 2%;
   letter-spacing: 0.6px;
 }
@@ -334,7 +341,7 @@ ul li {
 .text_center_small {
   text-align: center;
   font-size: 100%;
-  line-height: 120%;
+  line-height: 135%;
   margin-top: 15px;
 }
 
@@ -405,7 +412,7 @@ li {
 /* ---------------------------------------- */
 
 footer {
-  background-color: rgba(100, 58, 124, 0.411);
+  background-color: #a471c16b;
   color: #fff;
   font-size: 90%;
   padding: 0.5%;
@@ -458,7 +465,7 @@ footer {
 .footer-nav li a:link,
 .footer-nav li a:visited {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.658);
   padding-bottom: 1px;
   border-bottom: none;
   transition: color 0.5s;
@@ -467,7 +474,7 @@ footer {
 .footer-nav li a:hover,
 .footer-nav li a:active {
   text-decoration: none;
-  color: #e67e22;
+  color: rgb(100, 44, 133);
 }
 
 .fb:hover,
@@ -475,4 +482,62 @@ footer {
   text-decoration: none;
   color: #3b5998;
   transition: color 0.5s;
+}
+
+/* 
+KONTAKT 
+*/
+
+.section-kontakt {
+  background-color: #f4f4f4;
+}
+
+.kontakt-box:first-child {
+  text-align: center;
+  padding-right: 0%;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kontakt-box:last-child {
+  padding-left: 0%;
+  margin-top: 90px;
+}
+
+.app-screen {
+  width: 50%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.photo-iza {
+  width: 50%;
+  border-radius: 100%;
+  margin-right: 10px;
+  border: 3px solid #a471c1;
+}
+
+.map-icon_third {
+  color: #a471c1;
+  text-align: left;
+  font-size: 200%;
+  padding: 0px 0 10px 0;
+}
+
+.map-icon {
+  color: #a471c1;
+  text-align: left;
+  font-size: 200%;
+  padding: 40px 0 10px 0;
+}
+
+.mapa {
+  margin-right: 0px;
+  margin-top: 70px;
+  width: 60%;
+  border-radius: 20px;
 }
