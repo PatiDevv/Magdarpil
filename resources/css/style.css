@@ -162,7 +162,7 @@ header {
   height: 75px;
   width: auto;
   float: right;
-  margin: 2% 0 0 3%;
+  margin: 2% 3% 0 0;
 }
 
 .zkwp-fci {
@@ -172,12 +172,10 @@ header {
 }
 
 .hero-text-box {
-  position: absolute;
   width: 750px;
-  top: 27%;
-  left: 62%;
-  transform: translate(-50%, -50%);
+  float: right;
   text-align: right;
+  margin: 4% 3% 0 0;
 }
 
 /* Main navi */
@@ -363,7 +361,7 @@ li {
   margin-right: 100px;
 }
 
-.padding_botton {
+.padding_bottom {
   padding-bottom: 30px;
 }
 
@@ -487,19 +485,20 @@ KONTAKT
 
 .section-kontakt {
   background-color: #f4f4f4;
+  padding: 80px 0 40px 0;
 }
 
 .kontakt-box:first-child {
   text-align: center;
   padding-right: 0%;
-  margin-top: 45px;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .kontakt-box:last-child {
   padding-left: 0%;
-  margin-top: 90px;
+  margin-top: 5%;
 }
 
 .app-screen {
@@ -515,7 +514,7 @@ KONTAKT
   width: 50%;
   border-radius: 100%;
   margin-right: 10px;
-  box-shadow: 0 0 2em #a471c1;
+  box-shadow: 0 0 1em #a471c1;
 }
 
 .map-icon_third {
